@@ -1,0 +1,23 @@
+/*var is = fs.createReadStream(oldpath);
+var os = fs.createWriteStream('E:/Evan/');*/
+
+/*is.pipe(os);
+is.on('end',function(){
+  fs.unlinkSync(oldpath);
+});*/
+
+/*fs.rename(oldpath,newpath,function(err){
+  if (err) throw err;
+  res.write('File Uploaded');
+  res.end();
+});*/
+
+/*fs.unlink(newpath,function(err){
+  if (err) throw err;
+  console.log("File Deleted!")
+});*/
+
+/*  fse.move(newpath,'E:/Evan/',function(err){
+  if (err) throw err;
+  console.log("success!");
+});*/
